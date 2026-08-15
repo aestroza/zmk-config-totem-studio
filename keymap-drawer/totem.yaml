@@ -35,49 +35,49 @@ layers:
   - SINGLE QUOTE
   - {t: BACKSPACE, h: LEFT COMMAND}
   - {t: Sft+TAB, h: NAV}
-  - {t: RET, h: SYM}
+  - ENTER
   - SPACE
   - {t: TAB, h: NUM}
   - {t: DELETE, h: RIGHT ALT}
   NAV:
-  - ''
+  - CARET
   - MINUS
   - UP
   - PLUS
-  - ''
-  - Gui+Sft+Z
+  - LEFT BRACE
+  - RIGHT BRACE
   - KP 7
   - KP 8
   - KP 9
-  - Gui+Z
-  - LGUI
+  - PLUS
+  - TILDE
   - LEFT
   - DOWN
   - RIGHT
-  - ''
-  - LEFT
+  - LEFT BRACKET
+  - RIGHT BRACKET
   - KP 4
   - KP 5
   - KP 6
-  - CAPS
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - INS
-  - HOME
+  - MINUS
+  - LCTRL
+  - APOS
+  - PAGE DOWN
+  - Gui+DOWN
+  - PG UP
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
   - KP 1
   - KP 2
   - KP 3
-  - {t: Esc, h: Ctrl}
-  - ''
+  - KP MULTIPLY
+  - EQUAL
   - ''
   - {type: held}
   - RET
-  - BSPC
-  - DEL
-  - Hyper
+  - KP 0
+  - KP DOT
+  - KP COMMA
   NUM:
   - LBKT
   - '7'
@@ -191,7 +191,7 @@ layers:
   - LPAR
   - RPAR
   - UNDER
-  - {type: held}
+  - ''
   - ''
   - ''
   - Hyper
