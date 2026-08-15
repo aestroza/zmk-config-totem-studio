@@ -89,7 +89,7 @@ layers:
   - ASTERISK
   - ''
   - F12
-  - Sft+AltGr+SEMICOLON
+  - AltGr+COLON
   - AltGr+1
   - AltGr+QUESTION
   - ''

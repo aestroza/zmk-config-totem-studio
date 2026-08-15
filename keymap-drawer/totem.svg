@@ -630,7 +630,7 @@ rect.held {
 <g transform="translate(80, 153) rotate(-10.0)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 78%">Sft+</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">AltGr+</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">SEMICOLON</tspan>
+<tspan x="0" dy="-0.6em">AltGr+</tspan><tspan x="0" dy="1.2em">COLON</tspan>
 </text>
 </g>
 <g transform="translate(134, 108) rotate(-4.0)" class="key keypos-11">
