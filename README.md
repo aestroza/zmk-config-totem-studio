@@ -4,6 +4,10 @@
 
 > Miryoku-inspired ZMK configuration for the [TOTEM](https://github.com/GEIGEIGEIST/TOTEM) 38-key split keyboard. QWERTY base, vim-style navigation, home row mods, mouse keys, combos, real-time [ZMK Studio](https://zmk.studio/) support, and [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) integration.
 
+> [!TIP]
+> **Easily Edit This Keymap Online!**  
+> Use Nick Coutsos' **[Keymap Editor](https://nickcoutsos.github.io/keymap-editor/)** to visually edit and customize this keymap directly in your browser. With our built-in `config/info.json` layout metadata, your visual edits commit straight back to your GitHub repo and map **100% accurately** onto your TOTEM keyboard without any key shifting.
+
 ---
 
 ## Keymap
