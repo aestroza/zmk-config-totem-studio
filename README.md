@@ -2,7 +2,7 @@
 
 [![Build ZMK firmware](../../actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
 
-> Miryoku-inspired ZMK configuration for the [TOTEM](https://github.com/GEIGEIGEIST/TOTEM) 38-key split keyboard. QWERTY base, vim-style navigation, home row mods, mouse keys, combos, and [ZMK Studio](https://zmk.studio/) support for real-time keymap editing.
+> Miryoku-inspired ZMK configuration for the [TOTEM](https://github.com/GEIGEIGEIST/TOTEM) 38-key split keyboard. QWERTY base, vim-style navigation, home row mods, mouse keys, combos, real-time [ZMK Studio](https://zmk.studio/) support, and [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) integration.
 
 ---
 
@@ -20,10 +20,9 @@ This config follows the [Miryoku](https://github.com/manna-harbour/miryoku) layo
 
 - **QWERTY** base with **home row mods** (GACS order)
 - **Vim-style** navigation (HJKL arrows)
-- **6 thumb-activated layers** — hold a thumb key to access NAV, NUM, SYM, MEDIA, FUN, or MOUSE
-- **Symmetric design** — left thumbs activate right-hand layers and vice versa
+- **Thumb-activated layers** — access NAVNUM, SYMFN, MEDIA, or MOUSE
 - **Mouse keys** — full mouse emulation (movement, scroll, click) on the MOUSE layer
-- **14 combos** — Caps Word, Esc, Bspc, Tab, Enter, clipboard, and vertical symbol combos
+- **Combos** — Caps Word, Esc, Bspc, Tab, Enter, clipboard, and symbol combos
 - **Extra keys** — Ctrl/Esc (left) and Hyper (right) on the outer pinky positions
 
 ### Thumb Keys
@@ -47,31 +46,23 @@ Left hand                          Right hand
 | Layer | Activation | Left Hand | Right Hand |
 |:------|:-----------|:----------|:-----------|
 | BASE | Default | QWERTY + home row mods | QWERTY + home row mods |
-| NAV | Hold `Space` | Mods | Vim arrows (HJKL), Cmd clipboard, PgUp/PgDn, Home/End |
-| MOUSE | Hold `Tab` | Mods | Mouse movement (HJKL), scroll, L/M/R click |
-| MEDIA | Hold `Esc` | Mods | Prev/Next, Vol Up/Down, Play/Stop, BT profiles |
-| NUM | Hold `Bspc` | `[ 7 8 9 ]`, `; 4 5 6 =`, `` ` 1 2 3 \ `` | Mods |
-| SYM | Hold `Enter` | `{ & * ( }`, `: $ % ^ +`, `~ ! @ # \|` | Mods |
-| FUN | Hold `Del` | F12-F1, PrtSc, ScrLk, Pause/Break | Mods |
+| NAVNUM | Hold `Space` / `Tab` | Home row mods / Nav | Vim arrows, Keypad numbers (`1-9`), PgUp/PgDn |
+| SYMFN | Hold `Enter` | Symbols (`! @ # $ % ^ & *`) | Function keys (`F1-F12`), Volume / Play controls |
+| MEDIA | Hold `Esc` | Home row mods | Prev/Next, Vol Up/Down, Play/Pause, BT profiles (0-3, Clear) |
+| MOUSE | Hold `Tab` | Mouse Scroll / Speed | Mouse movement (`mmv`), Scroll (`msc`), Left/Right/Middle Click |
 
 ### Combos
 
 | Combo | Keys | Output | Type |
 |:------|:-----|:-------|:-----|
-| W + E | top left | Escape | Horizontal |
-| I + O | top right | Backspace | Horizontal |
-| O + P | top right | Delete | Horizontal |
 | F + J | index home | Caps Word | Horizontal |
-| S + D | home left | Tab | Horizontal |
 | K + L | home right | Enter | Horizontal |
 | X + C | bottom left | Cmd+C (Copy) | Horizontal |
 | C + V | bottom left | Cmd+V (Paste) | Horizontal |
 | X + V | bottom left | Cmd+X (Cut) | Horizontal |
-| J + M | right index | `-` (minus) | Vertical |
-| H + N | right inner | `_` (underscore) | Vertical |
 | F + V | left index | `=` (equal) | Vertical |
-| S + X | left ring | `` ` `` (grave) | Vertical |
-| L + ' | right outer | `;` (semicolon) | Horizontal |
+| Thumbs 32+35 | inner thumbs | Media Layer | Dual Thumb |
+| J + M (16+25) | right index | `~` (tilde) | Vertical |
 
 All combos use `require-prior-idle-ms` to prevent misfires during fast typing.
 
@@ -98,7 +89,7 @@ Right:  SHFT / J   CTRL / K   ALT / L     GUI / '
 | **Keyboard** | [TOTEM](https://github.com/GEIGEIGEIST/TOTEM) — 38-key columnar stagger split |
 | **MCU** | Seeeduino XIAO BLE (nRF52840) |
 | **Firmware** | [ZMK](https://zmk.dev/) main branch (Zephyr 4.1) |
-| **Features** | Mouse keys, ZMK Studio, Bluetooth |
+| **Features** | Mouse keys, ZMK Studio, Keymap Editor layout mapping, Bluetooth |
 
 ---
 
@@ -118,44 +109,28 @@ Firmware builds automatically via GitHub Actions on every push.
 
 ---
 
-## ZMK Studio
+## Keymap Editors
 
-[ZMK Studio](https://zmk.studio/) lets you edit your keymap in real time through a browser — no reflashing, no rebuilding, no code.
+### 1. Keymap Editor (by Nick Coutsos)
 
-### What You Can Do
+This repository includes a custom `config/info.json` metadata file specifically formatted for [Keymap Editor by Nick Coutsos](https://nickcoutsos.github.io/keymap-editor/).
 
-- Remap any key on any layer
-- Add, remove, or reorder layers
-- Configure hold-tap behaviors
-- Test changes instantly — they apply the moment you make them
-- Save layouts that persist across reboots
+- **1:1 Visual Alignment:** Maps physical keys `Z X C V B N M , . /` and Outer Pinky keys cleanly without matrix key shifting.
+- **GitHub Integration:** Authorize Keymap Editor to edit your keymap graphically in your browser; changes commit directly back to GitHub.
+- **Matrix Formatting:** Includes full `row` and `col` properties for clean `.keymap` matrix generation.
 
-### How to Connect
+### 2. ZMK Studio
 
-1. **Plug in the left half** via USB (Studio is only enabled on the left half)
+[ZMK Studio](https://zmk.studio/) lets you edit your keymap in real time over WebUSB or Bluetooth — no reflashing or code needed.
+
+#### How to Connect
+
+1. **Plug in the left half** via USB (Studio is enabled on the left half)
 2. Open [zmk.studio](https://zmk.studio/) in a WebUSB-compatible browser (Chrome, Edge, or Brave)
 3. Click **Connect** and select your TOTEM from the device list
 4. Your current keymap loads automatically — start editing
 
-### How It Works
-
-- Changes apply **instantly** to the keyboard — no compile or flash step
-- Edits are saved to the keyboard's **onboard flash**, so they survive reboots and unplugging
-- The `.keymap` file in this repo is the **default layout** — Studio overrides sit on top of it
-- To reset back to the defaults from this repo, use the **Restore Stock Settings** option in Studio
-
-### Connecting via Bluetooth
-
-You can also connect to Studio over BLE:
-
-1. Make sure the left half is **not** plugged in via USB
-2. Open [zmk.studio](https://zmk.studio/) and click **Connect via Bluetooth**
-3. Pair with the TOTEM if prompted
-4. Edit your keymap wirelessly
-
-> **Note:** WebBluetooth support varies by OS. Chrome on macOS/Linux works best. Windows may require flags.
-
-### Build Config
+#### Build Config
 
 Studio support is configured in `build.yaml` for the left half:
 
@@ -167,7 +142,7 @@ Studio support is configured in `build.yaml` for the left half:
 ```
 
 - `CONFIG_ZMK_STUDIO=y` — enables the Studio RPC endpoint
-- `CONFIG_ZMK_STUDIO_LOCKING=n` — disables the security lock so you don't need to confirm on the keyboard each time
+- `CONFIG_ZMK_STUDIO_LOCKING=n` — disables security lock
 - `snippet: studio-rpc-usb-uart` — routes Studio communication over USB serial
 
 ---
@@ -189,6 +164,7 @@ Key settings in `config/totem.conf`:
 ├── config/
 │   ├── totem.keymap        # Keymap definition (layers, combos, macros)
 │   ├── totem.conf          # Firmware config (mouse keys, logging)
+│   ├── info.json           # Keymap Editor (Nick Coutsos) physical layout mapping
 │   └── west.yml            # ZMK module manifest (main branch)
 ├── boards/shields/totem/   # Board shield definition (matrix, pins, layout)
 ├── keymap-drawer/          # Auto-generated keymap diagrams
@@ -208,5 +184,6 @@ Key settings in `config/totem.conf`:
 - [TOTEM](https://github.com/GEIGEIGEIST/TOTEM) keyboard by GEIGEIGEIST
 - [Miryoku](https://github.com/manna-harbour/miryoku) layout by Manna Harbour
 - [ZMK Firmware](https://zmk.dev/)
+- [Keymap Editor](https://github.com/nickcoutsos/keymap-editor) by Nick Coutsos
 - [keymap-drawer](https://github.com/caksoylar/keymap-drawer) by caksoylar
 - [urob/zmk-config](https://github.com/urob/zmk-config) — combo and home row mod tuning reference
