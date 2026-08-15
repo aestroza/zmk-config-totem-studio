@@ -142,10 +142,10 @@
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛                           ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp Q  &kp W  &kp E                       &kp R          &kp T        &kp Y      &kp U      &kp I                 &kp O    &kp P
-               &kp A  &kp S  &kp D                       &kp F          &kp G        &kp H      &kp J      &kp K                 &kp L    &kp SEMI
-&mt RCTRL ESC  &kp Z  &kp X  &kp C                       &kp V          &kp B        &kp N      &kp M      &kp COMMA             &kp DOT  &kp SLASH  &kp SINGLE_QUOTE
-                             &mt LEFT_COMMAND BACKSPACE  &lt 1 LS(TAB)  &kp ENTER    &kp SPACE  &lt 2 TAB  &mt RIGHT_ALT DELETE
+               &kp Q  &kp W  &kp E                       &kp R          &kp T          &kp Y      &kp U      &kp I                 &kp O    &kp P
+               &kp A  &kp S  &kp D                       &kp F          &kp G          &kp H      &kp J      &kp K                 &kp L    &kp SEMI
+&mt RCTRL ESC  &kp Z  &kp X  &kp C                       &kp V          &kp B          &kp N      &kp M      &kp COMMA             &kp DOT  &kp SLASH  &kp SINGLE_QUOTE
+                             &mt LEFT_COMMAND BACKSPACE  &lt 1 LS(TAB)  &lt 4 ENTER    &kp SPACE  &lt 2 TAB  &mt RIGHT_ALT DELETE
             >;
         };
 
@@ -195,10 +195,10 @@
             // Left hand: home row mods
 
             bindings = <
-        &trans             &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans              &trans     &trans     &trans     &trans     &trans
-        &mmv MOVE_X(-300)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_X(300)    &trans     &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
-&trans  &trans             &msc SCRL_DOWN  &trans          &msc SCRL_UP     &trans              &trans     &trans     &trans     &trans     &trans  &trans
-                                           &trans          &trans           &mkp MCLK           &mkp LCLK  &mkp RCLK  &hyper
+        &trans             &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans              &trans     &trans     &mmv MOVE_Y(300)   &trans     &trans
+        &mmv MOVE_X(-300)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_X(300)    &trans     &mkp LCLK  &mmv MOVE_Y(-300)  &mkp RCLK  &trans
+&trans  &trans             &msc SCRL_DOWN  &trans          &msc SCRL_UP     &trans              &trans     &trans     &trans             &trans     &trans  &trans
+                                           &trans          &trans           &trans              &mkp MCLK  &trans     &hyper
             >;
         };
     };
