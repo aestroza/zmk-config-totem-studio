@@ -21,7 +21,6 @@ layers:
   - K
   - L
   - SEMI
-  - {t: ESC, h: RCTRL}
   - Z
   - X
   - C
@@ -32,13 +31,14 @@ layers:
   - COMMA
   - DOT
   - SLASH
-  - SINGLE QUOTE
+  - {t: ESC, h: RCTRL}
   - {t: BACKSPACE, h: LEFT COMMAND}
   - {t: Sft+TAB, h: NAVNUM}
   - {t: ENTER, h: MOUSE}
   - SPACE
   - {t: TAB, h: SYMFN}
   - {t: DELETE, h: RIGHT ALT}
+  - SINGLE QUOTE
   NAVNUM:
   - CARET
   - HOME
@@ -60,7 +60,6 @@ layers:
   - KP 5
   - KP 6
   - MINUS
-  - LCTRL
   - APOS
   - PAGE DOWN
   - Gui+DOWN
@@ -71,13 +70,14 @@ layers:
   - KP 2
   - KP 3
   - KP MULTIPLY
-  - EQUAL
+  - LCTRL
   - ''
   - {type: held}
   - RET
   - KP 0
   - KP DOT
   - KP COMMA
+  - EQUAL
   SYMFN:
   - PIPE
   - AT
@@ -99,7 +99,6 @@ layers:
   - QUESTION
   - EXCLAMATION
   - F11
-  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -116,6 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MEDIA:
   - ''
@@ -142,20 +142,20 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - BT CLR
   - {t: Esc, h: Ctrl}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - MUTE
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
   - ← Scroll
@@ -178,7 +178,6 @@ layers:
   - R Click
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ↓ Scroll
   - {t: ▽, type: trans}
   - ↑ Scroll
@@ -195,6 +194,7 @@ layers:
   - M Click
   - {t: ▽, type: trans}
   - Hyper
+  - {t: ▽, type: trans}
 combos:
 - p: [13, 16]
   k: '&caps_word'
