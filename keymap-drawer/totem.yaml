@@ -35,7 +35,7 @@ layers:
   - SINGLE QUOTE
   - {t: BACKSPACE, h: LEFT COMMAND}
   - {t: Sft+TAB, h: NAVNUM}
-  - ENTER
+  - {t: ENTER, h: MOUSE}
   - SPACE
   - {t: TAB, h: SYMFN}
   - {t: DELETE, h: RIGHT ALT}
@@ -164,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mmv MOVE_Y(300)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mmv MOVE_X(-300)'
@@ -174,7 +174,7 @@ layers:
   - '&mmv MOVE_X(300)'
   - {t: ▽, type: trans}
   - L Click
-  - M Click
+  - '&mmv MOVE_Y(-300)'
   - R Click
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,9 +191,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - M Click
-  - L Click
-  - R Click
+  - {t: ▽, type: trans}
   - Hyper
 combos:
 - p: [13, 16]
