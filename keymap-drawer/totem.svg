@@ -310,34 +310,36 @@ rect.held {
 <text x="629" y="97" class="combo tap">RET</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="178" y="145" width="26" height="22" class="combo"/>
-<text x="191" y="156" class="combo tap">Gui+C</text>
+<path d="M140,165 l-36,26" class="combo"/>
+<path d="M140,165 l36,-26" class="combo"/>
+<rect rx="6" ry="6" x="127" y="154" width="26" height="22" class="combo"/>
+<text x="140" y="165" class="combo tap">Gui+C</text>
 </g>
 <g class="combo combopos-3">
-<path d="M245,145 l-35,-11" class="combo"/>
-<path d="M245,145 l35,11" class="combo"/>
-<rect rx="6" ry="6" x="232" y="134" width="26" height="22" class="combo"/>
-<text x="245" y="145" class="combo tap">Gui+V</text>
+<path d="M167,178 l-60,19" class="combo"/>
+<path d="M167,178 l60,-19" class="combo"/>
+<rect rx="6" ry="6" x="154" y="167" width="26" height="22" class="combo"/>
+<text x="167" y="178" class="combo tap">Gui+V</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="152" y="132" width="26" height="22" class="combo"/>
-<text x="165" y="143" class="combo tap">Gui+X</text>
+<rect rx="6" ry="6" x="100" y="170" width="26" height="22" class="combo"/>
+<text x="113" y="181" class="combo tap">Gui+X</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="148" y="32" width="26" height="22" class="combo"/>
 <text x="161" y="43" class="combo tap">EQUAL</text>
 </g>
 <g class="combo combopos-6">
-<path d="M466,229 l-105,13" class="combo"/>
-<path d="M466,229 l105,-13" class="combo"/>
-<rect rx="6" ry="6" x="453" y="218" width="26" height="22" class="combo"/>
-<text x="466" y="229" class="combo tap">RCTRL</text>
+<path d="M409,222 l-102,0" class="combo"/>
+<path d="M409,222 l102,0" class="combo"/>
+<rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
+<text x="409" y="222" class="combo tap">RCTRL</text>
 <a href="#MEDIA">
-<text x="466" y="238" class="combo hold layer-activator">MEDIA</text>
+<text x="409" y="231" class="combo hold layer-activator">MEDIA</text>
 </a></g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="562" y="117" width="26" height="22" class="combo"/>
-<text x="575" y="128" class="combo tap">TILDE</text>
+<rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
+<text x="548" y="132" class="combo tap">TILDE</text>
 </g>
 </g>
 </g>
@@ -550,34 +552,36 @@ rect.held {
 <text x="629" y="97" class="combo tap">RET</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="178" y="145" width="26" height="22" class="combo"/>
-<text x="191" y="156" class="combo tap">Gui+C</text>
+<path d="M140,165 l-36,26" class="combo"/>
+<path d="M140,165 l36,-26" class="combo"/>
+<rect rx="6" ry="6" x="127" y="154" width="26" height="22" class="combo"/>
+<text x="140" y="165" class="combo tap">Gui+C</text>
 </g>
 <g class="combo combopos-3">
-<path d="M245,145 l-35,-11" class="combo"/>
-<path d="M245,145 l35,11" class="combo"/>
-<rect rx="6" ry="6" x="232" y="134" width="26" height="22" class="combo"/>
-<text x="245" y="145" class="combo tap">Gui+V</text>
+<path d="M167,178 l-60,19" class="combo"/>
+<path d="M167,178 l60,-19" class="combo"/>
+<rect rx="6" ry="6" x="154" y="167" width="26" height="22" class="combo"/>
+<text x="167" y="178" class="combo tap">Gui+V</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="152" y="132" width="26" height="22" class="combo"/>
-<text x="165" y="143" class="combo tap">Gui+X</text>
+<rect rx="6" ry="6" x="100" y="170" width="26" height="22" class="combo"/>
+<text x="113" y="181" class="combo tap">Gui+X</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="148" y="32" width="26" height="22" class="combo"/>
 <text x="161" y="43" class="combo tap">EQUAL</text>
 </g>
 <g class="combo combopos-6">
-<path d="M466,229 l-105,13" class="combo"/>
-<path d="M466,229 l105,-13" class="combo"/>
-<rect rx="6" ry="6" x="453" y="218" width="26" height="22" class="combo"/>
-<text x="466" y="229" class="combo tap">RCTRL</text>
+<path d="M409,222 l-102,0" class="combo"/>
+<path d="M409,222 l102,0" class="combo"/>
+<rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
+<text x="409" y="222" class="combo tap">RCTRL</text>
 <a href="#MEDIA">
-<text x="466" y="238" class="combo hold layer-activator">MEDIA</text>
+<text x="409" y="231" class="combo hold layer-activator">MEDIA</text>
 </a></g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="562" y="117" width="26" height="22" class="combo"/>
-<text x="575" y="128" class="combo tap">TILDE</text>
+<rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
+<text x="548" y="132" class="combo tap">TILDE</text>
 </g>
 </g>
 </g>
@@ -755,34 +759,36 @@ rect.held {
 <text x="629" y="97" class="combo tap">RET</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="178" y="145" width="26" height="22" class="combo"/>
-<text x="191" y="156" class="combo tap">Gui+C</text>
+<path d="M140,165 l-36,26" class="combo"/>
+<path d="M140,165 l36,-26" class="combo"/>
+<rect rx="6" ry="6" x="127" y="154" width="26" height="22" class="combo"/>
+<text x="140" y="165" class="combo tap">Gui+C</text>
 </g>
 <g class="combo combopos-3">
-<path d="M245,145 l-35,-11" class="combo"/>
-<path d="M245,145 l35,11" class="combo"/>
-<rect rx="6" ry="6" x="232" y="134" width="26" height="22" class="combo"/>
-<text x="245" y="145" class="combo tap">Gui+V</text>
+<path d="M167,178 l-60,19" class="combo"/>
+<path d="M167,178 l60,-19" class="combo"/>
+<rect rx="6" ry="6" x="154" y="167" width="26" height="22" class="combo"/>
+<text x="167" y="178" class="combo tap">Gui+V</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="152" y="132" width="26" height="22" class="combo"/>
-<text x="165" y="143" class="combo tap">Gui+X</text>
+<rect rx="6" ry="6" x="100" y="170" width="26" height="22" class="combo"/>
+<text x="113" y="181" class="combo tap">Gui+X</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="148" y="32" width="26" height="22" class="combo"/>
 <text x="161" y="43" class="combo tap">EQUAL</text>
 </g>
 <g class="combo combopos-6">
-<path d="M466,229 l-105,13" class="combo"/>
-<path d="M466,229 l105,-13" class="combo"/>
-<rect rx="6" ry="6" x="453" y="218" width="26" height="22" class="combo"/>
-<text x="466" y="229" class="combo tap">RCTRL</text>
+<path d="M409,222 l-102,0" class="combo"/>
+<path d="M409,222 l102,0" class="combo"/>
+<rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
+<text x="409" y="222" class="combo tap">RCTRL</text>
 <a href="#MEDIA">
-<text x="466" y="238" class="combo hold layer-activator">MEDIA</text>
+<text x="409" y="231" class="combo hold layer-activator">MEDIA</text>
 </a></g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="562" y="117" width="26" height="22" class="combo"/>
-<text x="575" y="128" class="combo tap">TILDE</text>
+<rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
+<text x="548" y="132" class="combo tap">TILDE</text>
 </g>
 </g>
 </g>
@@ -912,23 +918,23 @@ rect.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(288, 222) rotate(15.0)" class="key trans keypos-32">
+<g transform="translate(288, 222) rotate(15.0)" class="key held keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+</g>
+<g transform="translate(343, 245) rotate(30.0)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g transform="translate(343, 245) rotate(30.0)" class="key held keypos-33">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(476, 245) rotate(-30.0)" class="key trans keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(530, 222) rotate(-15.0)" class="key trans keypos-35">
+<g transform="translate(530, 222) rotate(-15.0)" class="key held keypos-35">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+</g>
+<g transform="translate(589, 214)" class="key trans keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g transform="translate(589, 214)" class="key held keypos-36">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(786, 190) rotate(10.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -946,34 +952,36 @@ rect.held {
 <text x="629" y="97" class="combo tap">RET</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="178" y="145" width="26" height="22" class="combo"/>
-<text x="191" y="156" class="combo tap">Gui+C</text>
+<path d="M140,165 l-36,26" class="combo"/>
+<path d="M140,165 l36,-26" class="combo"/>
+<rect rx="6" ry="6" x="127" y="154" width="26" height="22" class="combo"/>
+<text x="140" y="165" class="combo tap">Gui+C</text>
 </g>
 <g class="combo combopos-3">
-<path d="M245,145 l-35,-11" class="combo"/>
-<path d="M245,145 l35,11" class="combo"/>
-<rect rx="6" ry="6" x="232" y="134" width="26" height="22" class="combo"/>
-<text x="245" y="145" class="combo tap">Gui+V</text>
+<path d="M167,178 l-60,19" class="combo"/>
+<path d="M167,178 l60,-19" class="combo"/>
+<rect rx="6" ry="6" x="154" y="167" width="26" height="22" class="combo"/>
+<text x="167" y="178" class="combo tap">Gui+V</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="152" y="132" width="26" height="22" class="combo"/>
-<text x="165" y="143" class="combo tap">Gui+X</text>
+<rect rx="6" ry="6" x="100" y="170" width="26" height="22" class="combo"/>
+<text x="113" y="181" class="combo tap">Gui+X</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="148" y="32" width="26" height="22" class="combo"/>
 <text x="161" y="43" class="combo tap">EQUAL</text>
 </g>
 <g class="combo combopos-6">
-<path d="M466,229 l-105,13" class="combo"/>
-<path d="M466,229 l105,-13" class="combo"/>
-<rect rx="6" ry="6" x="453" y="218" width="26" height="22" class="combo"/>
-<text x="466" y="229" class="combo tap">RCTRL</text>
+<path d="M409,222 l-102,0" class="combo"/>
+<path d="M409,222 l102,0" class="combo"/>
+<rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
+<text x="409" y="222" class="combo tap">RCTRL</text>
 <a href="#MEDIA">
-<text x="466" y="238" class="combo hold layer-activator">MEDIA</text>
+<text x="409" y="231" class="combo hold layer-activator">MEDIA</text>
 </a></g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="562" y="117" width="26" height="22" class="combo"/>
-<text x="575" y="128" class="combo tap">TILDE</text>
+<rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
+<text x="548" y="132" class="combo tap">TILDE</text>
 </g>
 </g>
 </g>
@@ -1173,34 +1181,36 @@ rect.held {
 <text x="629" y="97" class="combo tap">RET</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="178" y="145" width="26" height="22" class="combo"/>
-<text x="191" y="156" class="combo tap">Gui+C</text>
+<path d="M140,165 l-36,26" class="combo"/>
+<path d="M140,165 l36,-26" class="combo"/>
+<rect rx="6" ry="6" x="127" y="154" width="26" height="22" class="combo"/>
+<text x="140" y="165" class="combo tap">Gui+C</text>
 </g>
 <g class="combo combopos-3">
-<path d="M245,145 l-35,-11" class="combo"/>
-<path d="M245,145 l35,11" class="combo"/>
-<rect rx="6" ry="6" x="232" y="134" width="26" height="22" class="combo"/>
-<text x="245" y="145" class="combo tap">Gui+V</text>
+<path d="M167,178 l-60,19" class="combo"/>
+<path d="M167,178 l60,-19" class="combo"/>
+<rect rx="6" ry="6" x="154" y="167" width="26" height="22" class="combo"/>
+<text x="167" y="178" class="combo tap">Gui+V</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="152" y="132" width="26" height="22" class="combo"/>
-<text x="165" y="143" class="combo tap">Gui+X</text>
+<rect rx="6" ry="6" x="100" y="170" width="26" height="22" class="combo"/>
+<text x="113" y="181" class="combo tap">Gui+X</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="148" y="32" width="26" height="22" class="combo"/>
 <text x="161" y="43" class="combo tap">EQUAL</text>
 </g>
 <g class="combo combopos-6">
-<path d="M466,229 l-105,13" class="combo"/>
-<path d="M466,229 l105,-13" class="combo"/>
-<rect rx="6" ry="6" x="453" y="218" width="26" height="22" class="combo"/>
-<text x="466" y="229" class="combo tap">RCTRL</text>
+<path d="M409,222 l-102,0" class="combo"/>
+<path d="M409,222 l102,0" class="combo"/>
+<rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
+<text x="409" y="222" class="combo tap">RCTRL</text>
 <a href="#MEDIA">
-<text x="466" y="238" class="combo hold layer-activator">MEDIA</text>
+<text x="409" y="231" class="combo hold layer-activator">MEDIA</text>
 </a></g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="562" y="117" width="26" height="22" class="combo"/>
-<text x="575" y="128" class="combo tap">TILDE</text>
+<rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
+<text x="548" y="132" class="combo tap">TILDE</text>
 </g>
 </g>
 </g>

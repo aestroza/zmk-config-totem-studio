@@ -150,11 +150,11 @@ layers:
   - {t: Esc, h: Ctrl}
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - MUTE
   MOUSE:
   - {t: ▽, type: trans}
@@ -200,15 +200,15 @@ combos:
   k: '&caps_word'
 - p: [17, 18, 16]
   k: RET
-- p: [21, 23]
+- p: [20, 22]
   k: Gui+C
-- p: [22, 24]
+- p: [20, 23]
   k: Gui+V
-- p: [21, 22]
+- p: [21, 20]
   k: Gui+X
 - p: [1, 2]
   k: EQUAL
-- p: [33, 36]
+- p: [32, 35]
   k: {t: RCTRL, h: MEDIA}
-- p: [16, 26]
+- p: [16, 25]
   k: TILDE
