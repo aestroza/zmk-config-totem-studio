@@ -33,12 +33,12 @@ layers:
   - DOT
   - SLASH
   - SINGLE QUOTE
-  - {t: SPACE, h: NAV}
-  - {t: TAB, h: MOUSE}
+  - {t: BACKSPACE, h: LEFT COMMAND}
+  - {t: Sft+TAB, h: NAV}
   - {t: RET, h: SYM}
   - SPACE
-  - {t: DEL, h: FUN}
-  - Hyper
+  - {t: TAB, h: NUM}
+  - {t: DELETE, h: RIGHT ALT}
   NAV:
   - ''
   - MINUS
@@ -72,8 +72,8 @@ layers:
   - KP 3
   - {t: Esc, h: Ctrl}
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - RET
   - BSPC
   - DEL
@@ -115,7 +115,7 @@ layers:
   - MINUS
   - ''
   - ''
-  - ''
+  - {type: held}
   - Hyper
   MEDIA:
   - ''
@@ -232,7 +232,7 @@ layers:
   - TAB
   - ''
   - ''
-  - {type: held}
+  - ''
   - Hyper
   MOUSE:
   - ''
@@ -268,7 +268,7 @@ layers:
   - {t: Esc, h: Ctrl}
   - ''
   - ''
-  - {type: held}
+  - ''
   - M Click
   - L Click
   - R Click
