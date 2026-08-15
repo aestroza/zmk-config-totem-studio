@@ -188,10 +188,10 @@
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛                           ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp Q  &kp W  &kp E                       &kp R          &kp T          &kp Y      &kp U      &kp I                 &kp O    &kp P
-               &kp A  &kp S  &kp D                       &kp F          &kp G          &kp H      &kp J      &kp K                 &kp L    &kp SEMI
-&mt RCTRL ESC  &kp Z  &kp X  &kp C                       &kp V          &kp B          &kp N      &kp M      &kp COMMA             &kp DOT  &kp SLASH  &kp SINGLE_QUOTE
-                             &mt LEFT_COMMAND BACKSPACE  &lt 1 LS(TAB)  &lt SYM RET    &kp SPACE  &lt 2 TAB  &mt RIGHT_ALT DELETE
+               &kp Q  &kp W  &kp E                       &kp R          &kp T        &kp Y      &kp U      &kp I                 &kp O    &kp P
+               &kp A  &kp S  &kp D                       &kp F          &kp G        &kp H      &kp J      &kp K                 &kp L    &kp SEMI
+&mt RCTRL ESC  &kp Z  &kp X  &kp C                       &kp V          &kp B        &kp N      &kp M      &kp COMMA             &kp DOT  &kp SLASH  &kp SINGLE_QUOTE
+                             &mt LEFT_COMMAND BACKSPACE  &lt 1 LS(TAB)  &kp ENTER    &kp SPACE  &lt 2 TAB  &mt RIGHT_ALT DELETE
             >;
         };
 
@@ -204,10 +204,10 @@
             // Left hand: home row mods (transparent for hold layer)
 
             bindings = <
-       &none     &kp MINUS  &kp UP    &kp PLUS   &none      &kp LG(LS(Z))  &kp KP_N7        &kp KP_N8  &kp KP_N9  &kp LG(Z)
-       &kp LGUI  &kp LEFT   &kp DOWN  &kp RIGHT  &none      &kp LEFT       &kp KP_N4        &kp KP_N5  &kp KP_N6  &kp CAPS
-&none  &none     &none      &none     &none      &kp INS    &kp HOME       &kp KP_NUMBER_1  &kp KP_N2  &kp KP_N3  &mt LCTRL ESC  &none
-                            &none     &none      &kp RET    &kp BSPC       &kp DEL          &hyper
+           &kp CARET  &kp MINUS      &kp UP        &kp PLUS   &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp KP_N7        &kp KP_N8     &kp KP_N9  &kp PLUS
+           &kp TILDE  &kp LEFT       &kp DOWN      &kp RIGHT  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp KP_N4        &kp KP_N5     &kp KP_N6  &kp MINUS
+&kp LCTRL  &kp APOS   &kp PAGE_DOWN  &kp RG(DOWN)  &kp PG_UP  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_N2     &kp KP_N3  &kp KP_MULTIPLY  &kp EQUAL
+                                     &none         &none      &kp RET                 &kp KP_N0              &kp KP_DOT       &kp KP_COMMA
             >;
         };
 
