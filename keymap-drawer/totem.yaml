@@ -11,16 +11,17 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RSHFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RALT}
-  - {t: SQT, h: RGUI}
+  - J
+  - K
+  - L
+  - SEMI
+  - {t: ESC, h: RCTRL}
   - Z
   - X
   - C
@@ -30,35 +31,34 @@ layers:
   - M
   - COMMA
   - DOT
-  - FSLH
-  - {t: Esc, h: Ctrl}
-  - {t: ESC, h: MEDIA}
+  - SLASH
+  - SINGLE QUOTE
   - {t: SPACE, h: NAV}
   - {t: TAB, h: MOUSE}
   - {t: RET, h: SYM}
-  - {t: BSPC, h: NUM}
+  - SPACE
   - {t: DEL, h: FUN}
   - Hyper
   NAV:
   - ''
-  - ''
-  - ''
-  - ''
+  - MINUS
+  - UP
+  - PLUS
   - ''
   - Gui+Sft+Z
-  - Gui+V
-  - Gui+C
-  - Gui+X
+  - KP 7
+  - KP 8
+  - KP 9
   - Gui+Z
   - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
-  - ''
   - LEFT
   - DOWN
-  - UP
   - RIGHT
+  - ''
+  - LEFT
+  - KP 4
+  - KP 5
+  - KP 6
   - CAPS
   - ''
   - ''
@@ -67,9 +67,9 @@ layers:
   - ''
   - INS
   - HOME
-  - PG DN
-  - PG UP
-  - END
+  - KP 1
+  - KP 2
+  - KP 3
   - {t: Esc, h: Ctrl}
   - ''
   - {type: held}
@@ -114,7 +114,7 @@ layers:
   - '0'
   - MINUS
   - ''
-  - {type: held}
+  - ''
   - ''
   - Hyper
   MEDIA:
@@ -149,7 +149,7 @@ layers:
   - {t: BT, h: '3'}
   - BT CLR
   - {t: Esc, h: Ctrl}
-  - {type: held}
+  - ''
   - ''
   - ''
   - STOP
