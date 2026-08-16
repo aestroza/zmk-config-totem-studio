@@ -174,10 +174,10 @@
         navnum_layer {
             display-name = "NAVNUM";
             bindings = <
-&kp CARET  &kp HOME       &kp UP        &kp END    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp KP_N7        &kp KP_N8     &kp KP_N9  &kp KP_PLUS
-&kp TILDE  &kp LEFT       &kp DOWN      &kp RIGHT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp KP_N4        &kp KP_N5     &kp KP_N6  &kp KP_MINUS
-&kp APOS   &kp PAGE_DOWN  &kp RG(DOWN)  &kp PG_UP  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_N2     &kp KP_N3  &kp KP_MULTIPLY
-&kp LCTRL                 &none         &none      &sk LOCKING_NUM       &kp KP_N0              &kp KP_DOT       &kp KP_COMMA             &kp SINGLE_QUOTE
+&kp CARET  &kp HOME       &kp UP        &kp END    &kp LEFT_BRACE        &kp DOT          &kp KP_N7        &kp KP_N8  &kp KP_N9  &kp KP_PLUS
+&kp TILDE  &kp LEFT       &kp DOWN      &kp RIGHT  &kp LEFT_BRACKET      &kp COMMA        &kp KP_N4        &kp KP_N5  &kp KP_N6  &kp KP_MINUS
+&kp APOS   &kp PAGE_DOWN  &kp RG(DOWN)  &kp PG_UP  &kp LEFT_PARENTHESIS  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY
+&kp LCTRL                 &none         &none      &sk LOCKING_NUM       &none            &none            &none                 &kp SINGLE_QUOTE
             >;
         };
 
