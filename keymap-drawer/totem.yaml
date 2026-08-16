@@ -156,8 +156,45 @@ layers:
   - {type: held}
   - ''
   - BT CLR
-  MOUSE: ['', ← Scroll, ↑ Move, → Scroll, '', '', '', '&mmv MOVE_Y(300)', '', '', '&mmv MOVE_X(-300)', ← Move, ↓ Move, → Move, '&mmv MOVE_X(300)', '', L Click, '&mmv
-      MOVE_Y(-300)', R Click, '', '', ↓ Scroll, '', ↑ Scroll, '', '', '', M Click, '', '', '', '', '', '', M Click, '', Hyper, '']
+  MOUSE:
+  - ''
+  - ← Scroll
+  - ↑ Move
+  - → Scroll
+  - ''
+  - ''
+  - ''
+  - '&mmv MOVE_Y(300)'
+  - ''
+  - ''
+  - '&mmv MOVE_X(-300)'
+  - ← Move
+  - ↓ Move
+  - → Move
+  - '&mmv MOVE_X(300)'
+  - ''
+  - L Click
+  - '&mmv MOVE_Y(-300)'
+  - R Click
+  - ''
+  - ''
+  - ↓ Scroll
+  - ''
+  - ↑ Scroll
+  - ''
+  - ''
+  - ''
+  - M Click
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - ''
+  - ''
+  - ''
 combos:
 - p: [10, 11]
   k: '&caps_word'
@@ -172,7 +209,7 @@ combos:
 - p: [7, 8]
   k: EQUAL
 - p: [32, 35]
-  k: {t: MEDIA, h: sticky}
+  k: {t: RIGHT ALT, h: MEDIA}
 - p: [16, 25]
   k: TILDE
 - p: [0, 1]
@@ -183,3 +220,5 @@ combos:
   k: PLUS
 - p: [11, 12, 13]
   k: AC SEARCH
+- p: [33, 34]
+  k: {t: LEFT ALT, h: MOUSE}

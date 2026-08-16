@@ -331,10 +331,12 @@ rect.held {
 <path d="M409,222 l-102,0" class="combo"/>
 <path d="M409,222 l102,0" class="combo"/>
 <rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
+<text x="409" y="222" class="combo tap">
+<tspan x="409" dy="-0.6em">RIGHT</tspan><tspan x="409" dy="1.2em">ALT</tspan>
+</text>
 <a href="#MEDIA">
-<text x="409" y="222" class="combo tap layer-activator">MEDIA</text>
-</a><text x="409" y="231" class="combo hold">sticky</text>
-</g>
+<text x="409" y="231" class="combo hold layer-activator">MEDIA</text>
+</a></g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
 <text x="548" y="132" class="combo tap">TILDE</text>
@@ -358,6 +360,16 @@ rect.held {
 <tspan x="190" dy="-0.6em">AC</tspan><tspan x="190" dy="1.2em">SEARCH</tspan>
 </text>
 </g>
+<g class="combo combopos-12">
+<path d="M409,245 l-48,0" class="combo"/>
+<path d="M409,245 l48,0" class="combo"/>
+<rect rx="6" ry="6" x="396" y="234" width="26" height="22" class="combo"/>
+<text x="409" y="245" class="combo tap">
+<tspan x="409" dy="-0.6em">LEFT</tspan><tspan x="409" dy="1.2em">ALT</tspan>
+</text>
+<a href="#MOUSE">
+<text x="409" y="254" class="combo hold layer-activator">MOUSE</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 339)" class="layer-SYMFN">
@@ -563,10 +575,12 @@ rect.held {
 <path d="M409,222 l-102,0" class="combo"/>
 <path d="M409,222 l102,0" class="combo"/>
 <rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
+<text x="409" y="222" class="combo tap">
+<tspan x="409" dy="-0.6em">RIGHT</tspan><tspan x="409" dy="1.2em">ALT</tspan>
+</text>
 <a href="#MEDIA">
-<text x="409" y="222" class="combo tap layer-activator">MEDIA</text>
-</a><text x="409" y="231" class="combo hold">sticky</text>
-</g>
+<text x="409" y="231" class="combo hold layer-activator">MEDIA</text>
+</a></g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
 <text x="548" y="132" class="combo tap">TILDE</text>
@@ -590,6 +604,16 @@ rect.held {
 <tspan x="190" dy="-0.6em">AC</tspan><tspan x="190" dy="1.2em">SEARCH</tspan>
 </text>
 </g>
+<g class="combo combopos-12">
+<path d="M409,245 l-48,0" class="combo"/>
+<path d="M409,245 l48,0" class="combo"/>
+<rect rx="6" ry="6" x="396" y="234" width="26" height="22" class="combo"/>
+<text x="409" y="245" class="combo tap">
+<tspan x="409" dy="-0.6em">LEFT</tspan><tspan x="409" dy="1.2em">ALT</tspan>
+</text>
+<a href="#MOUSE">
+<text x="409" y="254" class="combo hold layer-activator">MOUSE</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 678)" class="layer-NAVNUM">
@@ -817,10 +841,12 @@ rect.held {
 <path d="M409,222 l-102,0" class="combo"/>
 <path d="M409,222 l102,0" class="combo"/>
 <rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
+<text x="409" y="222" class="combo tap">
+<tspan x="409" dy="-0.6em">RIGHT</tspan><tspan x="409" dy="1.2em">ALT</tspan>
+</text>
 <a href="#MEDIA">
-<text x="409" y="222" class="combo tap layer-activator">MEDIA</text>
-</a><text x="409" y="231" class="combo hold">sticky</text>
-</g>
+<text x="409" y="231" class="combo hold layer-activator">MEDIA</text>
+</a></g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
 <text x="548" y="132" class="combo tap">TILDE</text>
@@ -844,6 +870,16 @@ rect.held {
 <tspan x="190" dy="-0.6em">AC</tspan><tspan x="190" dy="1.2em">SEARCH</tspan>
 </text>
 </g>
+<g class="combo combopos-12">
+<path d="M409,245 l-48,0" class="combo"/>
+<path d="M409,245 l48,0" class="combo"/>
+<rect rx="6" ry="6" x="396" y="234" width="26" height="22" class="combo"/>
+<text x="409" y="245" class="combo tap">
+<tspan x="409" dy="-0.6em">LEFT</tspan><tspan x="409" dy="1.2em">ALT</tspan>
+</text>
+<a href="#MOUSE">
+<text x="409" y="254" class="combo hold layer-activator">MOUSE</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1017)" class="layer-MEDIA">
@@ -1043,10 +1079,12 @@ rect.held {
 <path d="M409,222 l-102,0" class="combo"/>
 <path d="M409,222 l102,0" class="combo"/>
 <rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
+<text x="409" y="222" class="combo tap">
+<tspan x="409" dy="-0.6em">RIGHT</tspan><tspan x="409" dy="1.2em">ALT</tspan>
+</text>
 <a href="#MEDIA">
-<text x="409" y="222" class="combo tap layer-activator">MEDIA</text>
-</a><text x="409" y="231" class="combo hold">sticky</text>
-</g>
+<text x="409" y="231" class="combo hold layer-activator">MEDIA</text>
+</a></g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
 <text x="548" y="132" class="combo tap">TILDE</text>
@@ -1070,6 +1108,16 @@ rect.held {
 <tspan x="190" dy="-0.6em">AC</tspan><tspan x="190" dy="1.2em">SEARCH</tspan>
 </text>
 </g>
+<g class="combo combopos-12">
+<path d="M409,245 l-48,0" class="combo"/>
+<path d="M409,245 l48,0" class="combo"/>
+<rect rx="6" ry="6" x="396" y="234" width="26" height="22" class="combo"/>
+<text x="409" y="245" class="combo tap">
+<tspan x="409" dy="-0.6em">LEFT</tspan><tspan x="409" dy="1.2em">ALT</tspan>
+</text>
+<a href="#MOUSE">
+<text x="409" y="254" class="combo hold layer-activator">MOUSE</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1356)" class="layer-MOUSE">
@@ -1219,21 +1267,17 @@ rect.held {
 <g transform="translate(288, 222) rotate(15.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g transform="translate(343, 245) rotate(30.0)" class="key keypos-33">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<g transform="translate(343, 245) rotate(30.0)" class="key held keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
-<g transform="translate(476, 245) rotate(-30.0)" class="key keypos-34">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">M</tspan><tspan x="0" dy="1.2em">Click</tspan>
-</text>
+<g transform="translate(476, 245) rotate(-30.0)" class="key held keypos-34">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(530, 222) rotate(-15.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(589, 214)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Hyper</text>
 </g>
 <g transform="translate(786, 190) rotate(10.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1271,10 +1315,12 @@ rect.held {
 <path d="M409,222 l-102,0" class="combo"/>
 <path d="M409,222 l102,0" class="combo"/>
 <rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
+<text x="409" y="222" class="combo tap">
+<tspan x="409" dy="-0.6em">RIGHT</tspan><tspan x="409" dy="1.2em">ALT</tspan>
+</text>
 <a href="#MEDIA">
-<text x="409" y="222" class="combo tap layer-activator">MEDIA</text>
-</a><text x="409" y="231" class="combo hold">sticky</text>
-</g>
+<text x="409" y="231" class="combo hold layer-activator">MEDIA</text>
+</a></g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
 <text x="548" y="132" class="combo tap">TILDE</text>
@@ -1298,6 +1344,16 @@ rect.held {
 <tspan x="190" dy="-0.6em">AC</tspan><tspan x="190" dy="1.2em">SEARCH</tspan>
 </text>
 </g>
+<g class="combo combopos-12">
+<path d="M409,245 l-48,0" class="combo"/>
+<path d="M409,245 l48,0" class="combo"/>
+<rect rx="6" ry="6" x="396" y="234" width="26" height="22" class="combo"/>
+<text x="409" y="245" class="combo tap">
+<tspan x="409" dy="-0.6em">LEFT</tspan><tspan x="409" dy="1.2em">ALT</tspan>
+</text>
+<a href="#MOUSE">
+<text x="409" y="254" class="combo hold layer-activator">MOUSE</text>
+</a></g>
 </g>
 </g>
 </svg>
