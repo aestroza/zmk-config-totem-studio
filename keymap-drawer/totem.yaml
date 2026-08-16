@@ -200,12 +200,6 @@ combos:
   k: '&caps_word'
 - p: [17, 18, 16]
   k: RET
-- p: [20, 22]
-  k: Gui+C
-- p: [20, 23]
-  k: Gui+V
-- p: [21, 20]
-  k: Gui+X
 - p: [7, 8]
   k: EQUAL
 - p: [32, 35]
