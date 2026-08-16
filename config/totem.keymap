@@ -136,6 +136,13 @@
                 <&macro_release>,
                 <&kp LGUI &kp LALT &kp LCTRL &kp LSHFT>;
         };
+
+        degree: degree {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(NUMBER_8))>;
+            label = "DEGREE";
+        };
     };
 
     keymap {
@@ -158,7 +165,7 @@
 &kp PIPE          &kp AT            &kp HASH              &kp DOLLAR      &kp PERCENT       &kp CARET          &kp AMPERSAND    &kp ASTERISK           &kp BACKSPACE  &kp DELETE
 &kp LA(NUMBER_1)  &kp RA(QUESTION)  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp QUESTION   &kp EXCLAMATION
 &kp F2            &kp F3            &kp F4                &kp F5          &kp F6            &kp F7             &kp F8           &kp F9                 &kp F10        &kp F11
-&kp F1                              &none                 &none           &none             &none              &none            &none                                 &kp F12
+&kp F1                              &degree               &none           &none             &none              &none            &none                                 &kp F12
             >;
 
             label = "SYMFN";
