@@ -123,6 +123,11 @@
             bindings = <&kp PLUS>;
             key-positions = <8 9>;
         };
+
+        quick_search {
+            bindings = <&kp C_AC_SEARCH>;
+            key-positions = <11 12 13>;
+        };
     };
 
     macros {
