@@ -32,12 +32,12 @@ layers:
   - DOT
   - SLASH
   - {t: ESC, h: RCTRL}
-  - {t: BACKSPACE, h: RIGHT ALT}
+  - {t: BACKSPACE, h: LEFT COMMAND}
   - {t: TAB, h: SYMFN}
   - LEFT SHIFT
   - SPACE
   - {t: TAB, h: NAVNUM}
-  - {t: DELETE, h: RIGHT COMMAND}
+  - {t: DELETE, h: RIGHT ALT}
   - SINGLE QUOTE
   SYMFN:
   - PIPE
