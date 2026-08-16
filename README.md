@@ -34,7 +34,7 @@ This configuration is designed for maximum typing speed and ergonomics on a 38-k
 - **Symbol & Function layer (SYMFN)** accessible on left middle thumb hold.
 - **Media & Bluetooth layer (MEDIA)** accessible via dual-thumb combo (`Left Thumb 2 + Right Thumb 2`).
 - **Mouse emulation layer (MOUSE)** accessible via inner dual-thumb combo (`Left Thumb 3 + Right Thumb 1`).
-- **Rich combo suite** for one-handed shortcuts (Copy/Paste/Cut, Tab, Enter, Equal, Plus, Minus, Search, Tilde, Caps Word).
+- **Rich combo suite** for one-handed shortcuts (Tab, Enter, Equal, Plus, Minus, Search, Tilde, Caps Word, Media & Mouse layers).
 - **Custom macros** for macOS Hyper key (`Cmd+Alt+Ctrl+Shift`) and degree symbol (`°`).
 
 ### Thumb & Outer Keys
@@ -106,9 +106,6 @@ All combos are configured with idle timeouts and prior-idle requirements to ensu
 | **Enter** | `J + K + L` | `16 + 17 + 18` | `Enter` | Right home-row Enter |
 | **Minus (`-`)** | `L + ;` | `18 + 19` | `-` | Quick minus / underscore |
 | **Tilde (`~`)** | `J + N` | `16 + 25` | `~` | Vertical index tilde |
-| **Cut** | `Z + X` | `20 + 21` | `Cmd + X` | Bottom row cut shortcut |
-| **Copy** | `Z + C` | `20 + 22` | `Cmd + C` | Bottom row copy shortcut |
-| **Paste** | `Z + V` | `20 + 23` | `Cmd + V` | Bottom row paste shortcut |
 | **Media Layer** | `L-Thumb 2 + R-Thumb 2` | `32 + 35` | `&lt MEDIA RIGHT_ALT` | Hold for Media/BT layer, Tap for Right Alt |
 | **Mouse Layer** | `L-Thumb 3 + R-Thumb 1` | `33 + 34` | `&lt MOUSE LEFT_ALT` | Hold for Mouse layer, Tap for Left Alt |
 
