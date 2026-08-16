@@ -71,48 +71,48 @@ layers:
   - F10
   - F11
   - F1
-  - '&degree'
+  - ''
   - {type: held}
   - ''
-  - ''
-  - ''
-  - ''
+  - SPACE
+  - '&degree'
+  - RIGHT COMMAND
   - F12
   NAVNUM:
-  - CARET
+  - TAB
   - HOME
   - UP
   - END
-  - LEFT BRACE
+  - REDO
   - DOT
   - KP 7
   - KP 8
   - KP 9
   - KP PLUS
-  - TILDE
+  - CAPSLOCK
   - LEFT
   - DOWN
   - RIGHT
-  - LEFT BRACKET
+  - UNDO
   - COMMA
   - KP 4
   - KP 5
   - KP 6
   - KP MINUS
-  - APOS
+  - INS
   - PAGE DOWN
   - Gui+DOWN
   - PG UP
-  - LEFT PARENTHESIS
+  - ENTER
   - KP 0
   - KP 1
   - KP 2
   - KP 3
   - KP MULTIPLY
-  - LCTRL
-  - ''
-  - ''
-  - {t: LOCKING NUM, h: sticky}
+  - {t: ESCAPE, h: LEFT CONTROL}
+  - LEFT ALT
+  - LEFT GUI
+  - {t: LEFT SHIFT, h: sticky}
   - ''
   - {type: held}
   - ''
@@ -150,51 +150,14 @@ layers:
   - {t: Esc, h: Ctrl}
   - ''
   - ''
+  - {type: held}
   - ''
   - ''
-  - ''
-  - ''
+  - {type: held}
   - ''
   - MUTE
-  MOUSE:
-  - ''
-  - ← Scroll
-  - ↑ Move
-  - → Scroll
-  - ''
-  - ''
-  - ''
-  - '&mmv MOVE_Y(300)'
-  - ''
-  - ''
-  - '&mmv MOVE_X(-300)'
-  - ← Move
-  - ↓ Move
-  - → Move
-  - '&mmv MOVE_X(300)'
-  - ''
-  - L Click
-  - '&mmv MOVE_Y(-300)'
-  - R Click
-  - ''
-  - ''
-  - ↓ Scroll
-  - ''
-  - ↑ Scroll
-  - ''
-  - ''
-  - ''
-  - M Click
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - M Click
-  - {type: held}
-  - Hyper
-  - ''
+  MOUSE: ['', ← Scroll, ↑ Move, → Scroll, '', '', '', '&mmv MOVE_Y(300)', '', '', '&mmv MOVE_X(-300)', ← Move, ↓ Move, → Move, '&mmv MOVE_X(300)', '', L Click, '&mmv
+      MOVE_Y(-300)', R Click, '', '', ↓ Scroll, '', ↑ Scroll, '', '', '', M Click, '', '', '', '', '', '', M Click, '', Hyper, '']
 combos:
 - p: [10, 11]
   k: '&caps_word'
@@ -209,7 +172,7 @@ combos:
 - p: [7, 8]
   k: EQUAL
 - p: [32, 35]
-  k: {t: MOUSE, h: sticky}
+  k: {t: MEDIA, h: sticky}
 - p: [16, 25]
   k: TILDE
 - p: [0, 1]
