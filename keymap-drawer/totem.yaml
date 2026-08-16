@@ -31,7 +31,7 @@ layers:
   - COMMA
   - DOT
   - SLASH
-  - {t: ESC, h: RCTRL}
+  - {t: Esc, h: Ctrl}
   - {t: BACKSPACE, h: LEFT COMMAND}
   - {t: TAB, h: SYMFN}
   - LEFT SHIFT
