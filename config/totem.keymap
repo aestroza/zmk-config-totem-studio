@@ -10,15 +10,11 @@
 //
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 //
-//   Miryoku-style layout — QWERTY base, vim arrows (HJKL), GACS home row mods
-//
-//   Layer 0: BASE    — QWERTY + home row mods
-//   Layer 1: NAV     — vim arrows, clipboard, nav (hold SPACE)
-//   Layer 2: NUM     — numpad left hand (hold BSPC)
-//   Layer 3: MEDIA   — media, BT (hold ESC)
-//   Layer 4: SYM     — symbols left hand (hold ENTER)
-//   Layer 5: FUN     — function keys left hand (hold DEL)
-//   Layer 6: MOUSE   — mouse movement, scroll, buttons (hold TAB)
+//   Layer 0: BASE    — QWERTY, dedicated thumb modifiers, outer pinky keys
+//   Layer 1: SYMFN   — symbols, brackets, F1-F12 (hold Left Thumb 2)
+//   Layer 2: NAVNUM  — navigation arrows, keypad numbers (hold Right Thumb 2)
+//   Layer 3: MEDIA   — media, brightness, app launchers, BT profiles (dual-thumb combo 32+35)
+//   Layer 4: MOUSE   — mouse movement, scroll, clicks (dual-thumb combo 33+34)
 
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
@@ -26,13 +22,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define BASE  0
-#define NAV   1
-#define NUM   2
-#define MEDIA 3
-#define SYM   4
-#define FUN   5
-#define MOUSE 6
+#define BASE   0
+#define SYMFN  1
+#define NAVNUM 2
+#define MEDIA  3
+#define MOUSE  4
 
 &mt {
     flavor = "tap-preferred";
@@ -100,7 +94,7 @@
         };
 
         media_layer {
-            bindings = <&lt 3 RIGHT_ALT>;
+            bindings = <&lt MEDIA RIGHT_ALT>;
             key-positions = <32 35>;
         };
 
@@ -130,7 +124,7 @@
         };
 
         mouse_layer {
-            bindings = <&lt 4 LEFT_ALT>;
+            bindings = <&lt MOUSE LEFT_ALT>;
             key-positions = <33 34>;
         };
     };
@@ -163,10 +157,10 @@
         base_layer {
             display-name = "BASE";
             bindings = <
-&kp Q          &kp W  &kp E                       &kp R      &kp T           &kp Y      &kp U      &kp I                 &kp O    &kp P
-&kp A          &kp S  &kp D                       &kp F      &kp G           &kp H      &kp J      &kp K                 &kp L    &kp SEMI
-&kp Z          &kp X  &kp C                       &kp V      &kp B           &kp N      &kp M      &kp COMMA             &kp DOT  &kp SLASH
-&mt RCTRL ESC         &mt LEFT_COMMAND BACKSPACE  &lt 1 TAB  &kp LEFT_SHIFT  &kp SPACE  &lt 2 TAB  &mt RIGHT_ALT DELETE           &kp SINGLE_QUOTE
+&kp Q          &kp W  &kp E                       &kp R          &kp T           &kp Y      &kp U      &kp I                 &kp O    &kp P
+&kp A          &kp S  &kp D                       &kp F          &kp G           &kp H      &kp J      &kp K                 &kp L    &kp SEMI
+&kp Z          &kp X  &kp C                       &kp V          &kp B           &kp N      &kp M      &kp COMMA             &kp DOT  &kp SLASH
+&mt RCTRL ESC         &mt LEFT_COMMAND BACKSPACE  &lt SYMFN TAB  &kp LEFT_SHIFT  &kp SPACE  &lt NAVNUM TAB  &mt RIGHT_ALT DELETE           &kp SINGLE_QUOTE
             >;
         };
 
