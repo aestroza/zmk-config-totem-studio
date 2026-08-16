@@ -116,7 +116,7 @@ layers:
   - ''
   - {type: held}
   - ''
-  - SINGLE QUOTE
+  - Hyper
   MEDIA:
   - ''
   - ''
@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - M Click
   - ''
   - ''
   - ''
@@ -209,7 +209,7 @@ combos:
 - p: [7, 8]
   k: EQUAL
 - p: [32, 35]
-  k: {t: RCTRL, h: MOUSE}
+  k: {t: MOUSE, h: sticky}
 - p: [16, 25]
   k: TILDE
 - p: [0, 1]

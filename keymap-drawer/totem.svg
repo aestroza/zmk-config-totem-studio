@@ -331,10 +331,10 @@ rect.held {
 <path d="M409,222 l-102,0" class="combo"/>
 <path d="M409,222 l102,0" class="combo"/>
 <rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
-<text x="409" y="222" class="combo tap">RCTRL</text>
 <a href="#MOUSE">
-<text x="409" y="231" class="combo hold layer-activator">MOUSE</text>
-</a></g>
+<text x="409" y="222" class="combo tap layer-activator">MOUSE</text>
+</a><text x="409" y="231" class="combo hold">sticky</text>
+</g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
 <text x="548" y="132" class="combo tap">TILDE</text>
@@ -550,10 +550,10 @@ rect.held {
 <path d="M409,222 l-102,0" class="combo"/>
 <path d="M409,222 l102,0" class="combo"/>
 <rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
-<text x="409" y="222" class="combo tap">RCTRL</text>
 <a href="#MOUSE">
-<text x="409" y="231" class="combo hold layer-activator">MOUSE</text>
-</a></g>
+<text x="409" y="222" class="combo tap layer-activator">MOUSE</text>
+</a><text x="409" y="231" class="combo hold">sticky</text>
+</g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
 <text x="548" y="132" class="combo tap">TILDE</text>
@@ -761,9 +761,7 @@ rect.held {
 </g>
 <g transform="translate(786, 190) rotate(10.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">SINGLE</tspan><tspan x="0" dy="1.2em">QUOTE</tspan>
-</text>
+<text x="0" y="0" class="key tap">Hyper</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="94" y="120" width="26" height="22" class="combo"/>
@@ -798,10 +796,10 @@ rect.held {
 <path d="M409,222 l-102,0" class="combo"/>
 <path d="M409,222 l102,0" class="combo"/>
 <rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
-<text x="409" y="222" class="combo tap">RCTRL</text>
 <a href="#MOUSE">
-<text x="409" y="231" class="combo hold layer-activator">MOUSE</text>
-</a></g>
+<text x="409" y="222" class="combo tap layer-activator">MOUSE</text>
+</a><text x="409" y="231" class="combo hold">sticky</text>
+</g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
 <text x="548" y="132" class="combo tap">TILDE</text>
@@ -997,10 +995,10 @@ rect.held {
 <path d="M409,222 l-102,0" class="combo"/>
 <path d="M409,222 l102,0" class="combo"/>
 <rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
-<text x="409" y="222" class="combo tap">RCTRL</text>
 <a href="#MOUSE">
-<text x="409" y="231" class="combo hold layer-activator">MOUSE</text>
-</a></g>
+<text x="409" y="222" class="combo tap layer-activator">MOUSE</text>
+</a><text x="409" y="231" class="combo hold">sticky</text>
+</g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
 <text x="548" y="132" class="combo tap">TILDE</text>
@@ -1147,6 +1145,9 @@ rect.held {
 </g>
 <g transform="translate(627, 128)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">M</tspan><tspan x="0" dy="1.2em">Click</tspan>
+</text>
 </g>
 <g transform="translate(681, 158) rotate(4.0)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1215,10 +1216,10 @@ rect.held {
 <path d="M409,222 l-102,0" class="combo"/>
 <path d="M409,222 l102,0" class="combo"/>
 <rect rx="6" ry="6" x="396" y="211" width="26" height="22" class="combo"/>
-<text x="409" y="222" class="combo tap">RCTRL</text>
 <a href="#MOUSE">
-<text x="409" y="231" class="combo hold layer-activator">MOUSE</text>
-</a></g>
+<text x="409" y="222" class="combo tap layer-activator">MOUSE</text>
+</a><text x="409" y="231" class="combo hold">sticky</text>
+</g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="535" y="121" width="26" height="22" class="combo"/>
 <text x="548" y="132" class="combo tap">TILDE</text>
