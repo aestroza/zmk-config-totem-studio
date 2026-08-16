@@ -351,6 +351,13 @@ rect.held {
 <rect rx="6" ry="6" x="705" y="70" width="26" height="22" class="combo"/>
 <text x="718" y="81" class="combo tap">PLUS</text>
 </g>
+<g class="combo combopos-11">
+<path d="M190,97 l-38,8" class="combo"/>
+<rect rx="6" ry="6" x="177" y="86" width="26" height="22" class="combo"/>
+<text x="190" y="97" class="combo tap">
+<tspan x="190" dy="-0.6em">AC</tspan><tspan x="190" dy="1.2em">SEARCH</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 339)" class="layer-SYMFN">
@@ -575,6 +582,13 @@ rect.held {
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="705" y="70" width="26" height="22" class="combo"/>
 <text x="718" y="81" class="combo tap">PLUS</text>
+</g>
+<g class="combo combopos-11">
+<path d="M190,97 l-38,8" class="combo"/>
+<rect rx="6" ry="6" x="177" y="86" width="26" height="22" class="combo"/>
+<text x="190" y="97" class="combo tap">
+<tspan x="190" dy="-0.6em">AC</tspan><tspan x="190" dy="1.2em">SEARCH</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -823,6 +837,13 @@ rect.held {
 <rect rx="6" ry="6" x="705" y="70" width="26" height="22" class="combo"/>
 <text x="718" y="81" class="combo tap">PLUS</text>
 </g>
+<g class="combo combopos-11">
+<path d="M190,97 l-38,8" class="combo"/>
+<rect rx="6" ry="6" x="177" y="86" width="26" height="22" class="combo"/>
+<text x="190" y="97" class="combo tap">
+<tspan x="190" dy="-0.6em">AC</tspan><tspan x="190" dy="1.2em">SEARCH</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1017)" class="layer-MEDIA">
@@ -1027,6 +1048,13 @@ rect.held {
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="705" y="70" width="26" height="22" class="combo"/>
 <text x="718" y="81" class="combo tap">PLUS</text>
+</g>
+<g class="combo combopos-11">
+<path d="M190,97 l-38,8" class="combo"/>
+<rect rx="6" ry="6" x="177" y="86" width="26" height="22" class="combo"/>
+<text x="190" y="97" class="combo tap">
+<tspan x="190" dy="-0.6em">AC</tspan><tspan x="190" dy="1.2em">SEARCH</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1248,6 +1276,13 @@ rect.held {
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="705" y="70" width="26" height="22" class="combo"/>
 <text x="718" y="81" class="combo tap">PLUS</text>
+</g>
+<g class="combo combopos-11">
+<path d="M190,97 l-38,8" class="combo"/>
+<rect rx="6" ry="6" x="177" y="86" width="26" height="22" class="combo"/>
+<text x="190" y="97" class="combo tap">
+<tspan x="190" dy="-0.6em">AC</tspan><tspan x="190" dy="1.2em">SEARCH</tspan>
+</text>
 </g>
 </g>
 </g>

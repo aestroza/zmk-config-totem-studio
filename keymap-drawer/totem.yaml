@@ -181,3 +181,5 @@ combos:
   k: MINUS
 - p: [8, 9]
   k: PLUS
+- p: [11, 12, 13]
+  k: AC SEARCH
