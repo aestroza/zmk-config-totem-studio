@@ -32,7 +32,7 @@ layers:
   - DOT
   - SLASH
   - {t: ESC, h: RCTRL}
-  - {t: BACKSPACE, h: LEFT ALT}
+  - {t: BACKSPACE, h: RIGHT ALT}
   - {t: TAB, h: SYMFN}
   - LEFT SHIFT
   - SPACE
