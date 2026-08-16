@@ -84,7 +84,7 @@ layers:
   - UP
   - END
   - LEFT BRACE
-  - RIGHT BRACE
+  - DOT
   - KP 7
   - KP 8
   - KP 9
@@ -94,7 +94,7 @@ layers:
   - DOWN
   - RIGHT
   - LEFT BRACKET
-  - RIGHT BRACKET
+  - COMMA
   - KP 4
   - KP 5
   - KP 6
@@ -104,7 +104,7 @@ layers:
   - Gui+DOWN
   - PG UP
   - LEFT PARENTHESIS
-  - RIGHT PARENTHESIS
+  - KP 0
   - KP 1
   - KP 2
   - KP 3
@@ -113,9 +113,9 @@ layers:
   - ''
   - ''
   - {t: LOCKING NUM, h: sticky}
-  - KP 0
-  - {t: KP DOT, type: held}
-  - KP COMMA
+  - ''
+  - {type: held}
+  - ''
   - SINGLE QUOTE
   MEDIA:
   - ''
