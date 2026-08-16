@@ -119,17 +119,17 @@ layers:
   - Hyper
   MEDIA:
   - ''
+  - AL INSTANT MESSAGING
+  - AL CALC
+  - AL CALENDAR
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - STOP
   - PREV
   - PLAY PAUSE
   - NEXT
   - ''
-  - LGUI
-  - LALT
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
   - ''
@@ -142,11 +142,11 @@ layers:
   - ''
   - ''
   - ''
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - BT CLR
   - ''
   - {t: ESCAPE, h: RCTRL}
   - ''
@@ -155,7 +155,7 @@ layers:
   - ''
   - {type: held}
   - ''
-  - ''
+  - BT CLR
   MOUSE: ['', ← Scroll, ↑ Move, → Scroll, '', '', '', '&mmv MOVE_Y(300)', '', '', '&mmv MOVE_X(-300)', ← Move, ↓ Move, → Move, '&mmv MOVE_X(300)', '', L Click, '&mmv
       MOVE_Y(-300)', R Click, '', '', ↓ Scroll, '', ↑ Scroll, '', '', '', M Click, '', '', '', '', '', '', M Click, '', Hyper, '']
 combos:
