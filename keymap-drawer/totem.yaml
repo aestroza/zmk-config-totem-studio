@@ -32,12 +32,12 @@ layers:
   - DOT
   - SLASH
   - {t: ESC, h: RCTRL}
-  - {t: BACKSPACE, h: LEFT COMMAND}
-  - {t: Sft+TAB, h: NAVNUM}
-  - {t: ENTER, h: MOUSE}
+  - {t: BACKSPACE, h: LEFT ALT}
+  - {t: TAB, h: NAVNUM}
+  - LEFT SHIFT
   - SPACE
   - {t: TAB, h: SYMFN}
-  - {t: DELETE, h: RIGHT ALT}
+  - {t: DELETE, h: RIGHT COMMAND}
   - SINGLE QUOTE
   NAVNUM:
   - CARET
@@ -87,7 +87,7 @@ layers:
   - CARET
   - AMPERSAND
   - ASTERISK
-  - ''
+  - BACKSPACE
   - F12
   - AltGr+COLON
   - AltGr+1
@@ -116,7 +116,7 @@ layers:
   - ''
   - {type: held}
   - ''
-  - ''
+  - ENTER
   MEDIA:
   - ''
   - ''
@@ -156,47 +156,10 @@ layers:
   - {type: held}
   - ''
   - MUTE
-  MOUSE:
-  - ''
-  - ← Scroll
-  - ↑ Move
-  - → Scroll
-  - ''
-  - ''
-  - ''
-  - '&mmv MOVE_Y(300)'
-  - ''
-  - ''
-  - '&mmv MOVE_X(-300)'
-  - ← Move
-  - ↓ Move
-  - → Move
-  - '&mmv MOVE_X(300)'
-  - ''
-  - L Click
-  - '&mmv MOVE_Y(-300)'
-  - R Click
-  - ''
-  - ''
-  - ↓ Scroll
-  - ''
-  - ↑ Scroll
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - M Click
-  - ''
-  - Hyper
-  - ''
+  MOUSE: ['', ← Scroll, ↑ Move, → Scroll, '', '', '', '&mmv MOVE_Y(300)', '', '', '&mmv MOVE_X(-300)', ← Move, ↓ Move, → Move, '&mmv MOVE_X(300)', '', L Click, '&mmv
+      MOVE_Y(-300)', R Click, '', '', ↓ Scroll, '', ↑ Scroll, '', '', '', '', '', '', '', '', '', '', M Click, '', Hyper, '']
 combos:
-- p: [13, 16]
+- p: [10, 11]
   k: '&caps_word'
 - p: [17, 18, 16]
   k: RET
@@ -206,9 +169,15 @@ combos:
   k: Gui+V
 - p: [21, 20]
   k: Gui+X
-- p: [1, 2]
+- p: [7, 8]
   k: EQUAL
 - p: [32, 35]
   k: {t: RCTRL, h: MEDIA}
 - p: [16, 25]
   k: TILDE
+- p: [0, 1]
+  k: TAB
+- p: [19, 18]
+  k: MINUS
+- p: [8, 9]
+  k: PLUS
