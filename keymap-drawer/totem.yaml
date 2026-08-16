@@ -71,7 +71,7 @@ layers:
   - F10
   - F11
   - F1
-  - ''
+  - '&degree'
   - {type: held}
   - ''
   - ''
