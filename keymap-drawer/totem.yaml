@@ -75,7 +75,7 @@ layers:
   - {type: held}
   - ''
   - SPACE
-  - '&degree'
+  - RIGHT ALT
   - RIGHT COMMAND
   - F12
   NAVNUM:
@@ -123,20 +123,20 @@ layers:
   - ''
   - ''
   - ''
-  - PP
   - ''
-  - ''
-  - ''
+  - PREV
+  - PLAY PAUSE
+  - NEXT
   - ''
   - LGUI
   - LALT
-  - LCTRL
-  - LSHFT
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
   - ''
-  - PREV
-  - VOL DN
-  - VOL UP
-  - NEXT
+  - ''
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
   - ''
   - ''
   - ''
@@ -147,15 +147,15 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - BT CLR
-  - {t: Esc, h: Ctrl}
+  - ''
+  - {t: ESCAPE, h: RCTRL}
+  - ''
+  - {type: held}
   - ''
   - ''
   - {type: held}
   - ''
   - ''
-  - {type: held}
-  - ''
-  - MUTE
   MOUSE: ['', ← Scroll, ↑ Move, → Scroll, '', '', '', '&mmv MOVE_Y(300)', '', '', '&mmv MOVE_X(-300)', ← Move, ↓ Move, → Move, '&mmv MOVE_X(300)', '', L Click, '&mmv
       MOVE_Y(-300)', R Click, '', '', ↓ Scroll, '', ↑ Scroll, '', '', '', M Click, '', '', '', '', '', '', M Click, '', Hyper, '']
 combos:
