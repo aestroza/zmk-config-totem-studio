@@ -37,7 +37,7 @@ layers:
   - LEFT SHIFT
   - SPACE
   - {t: TAB, h: NAVNUM}
-  - {t: DELETE, h: RIGHT ALT}
+  - {t: DELETE, h: LEFT ALT}
   - SINGLE QUOTE
   SYMFN:
   - PIPE
@@ -101,7 +101,7 @@ layers:
   - KP MINUS
   - INS
   - PAGE DOWN
-  - Gui+DOWN
+  - ENTER
   - PG UP
   - ENTER
   - KP 0
@@ -110,12 +110,12 @@ layers:
   - KP 3
   - KP MULTIPLY
   - {t: ESCAPE, h: LEFT CONTROL}
+  - LEFT COMMAND
   - LEFT ALT
-  - LEFT GUI
   - {t: LEFT SHIFT, h: sticky}
   - ''
   - {type: held}
-  - ''
+  - KP NUMLOCK
   - Hyper
   MEDIA:
   - ''
