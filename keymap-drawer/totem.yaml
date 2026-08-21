@@ -36,7 +36,7 @@ layers:
   - {t: TAB, h: SYMFN}
   - LEFT SHIFT
   - SPACE
-  - {t: TAB, h: NAVNUM}
+  - {t: Sft+TAB, h: NAVNUM}
   - {t: DELETE, h: LEFT ALT}
   - SINGLE QUOTE
   SYMFN:
@@ -212,7 +212,9 @@ combos:
   k: MINUS
 - p: [8, 9]
   k: PLUS
-- p: [11, 12, 13]
+- p: [1, 2, 3]
   k: AC SEARCH
 - p: [33, 34]
   k: {t: LEFT ALT, h: MOUSE}
+- p: [11, 12, 13]
+  k: ENTER
