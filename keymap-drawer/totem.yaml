@@ -85,9 +85,9 @@ layers:
   - END
   - REDO
   - CARET
-  - KP 7
-  - KP 8
-  - KP 9
+  - '7'
+  - '8'
+  - '9'
   - KP PLUS
   - CAPSLOCK
   - LEFT
@@ -95,24 +95,24 @@ layers:
   - RIGHT
   - UNDO
   - ASTERISK
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
   - KP MINUS
   - INS
   - PAGE DOWN
   - ENTER
   - PG UP
   - ENTER
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - EQUAL
   - {t: ESCAPE, h: LEFT CONTROL}
   - LEFT COMMAND
   - LEFT ALT
-  - {t: LEFT SHIFT, h: sticky}
+  - LEFT SHIFT
   - ''
   - {type: held}
   - KP NUMLOCK
@@ -196,15 +196,13 @@ layers:
   - ''
   - ''
 combos:
-- p: [10, 11]
-  k: '&caps_word'
 - p: [17, 18, 16]
   k: RET
 - p: [28, 29]
   k: EQUAL
 - p: [32, 35]
   k: {t: RIGHT ALT, h: MEDIA}
-- p: [16, 25]
+- p: [17, 18]
   k: TILDE
 - p: [0, 1]
   k: TAB
