@@ -30,7 +30,7 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <300>;
+    tapping-term-ms = <280>;
     quick-tap-ms = <220>;
     require-prior-idle-ms = <150>;
 };
@@ -46,14 +46,6 @@
         compatible = "zmk,combos";
 
         // ── Tier 1: Essential ──────────────────────────────────────
-
-        combo_caps_word {
-            bindings = <&caps_word>;
-            key-positions = <10 11>;         // F + J (index home row)
-            timeout-ms = <70>;
-            require-prior-idle-ms = <150>;
-        };
-
         // ── Tier 2: High Value ─────────────────────────────────────
 
         combo_enter {
@@ -81,7 +73,7 @@
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <16 25>;
+            key-positions = <17 18>;
             timeout-ms = <70>;
             require-prior-idle-ms = <150>;
         };
@@ -103,8 +95,8 @@
         plus {
             bindings = <&kp PLUS>;
             key-positions = <8 9>;
-            timeout-ms = <70>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <170>;
         };
 
         quick_search {
@@ -131,8 +123,8 @@
         combo-backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <7 8>;
-            timeout-ms = <70>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <80>;
+            require-prior-idle-ms = <170>;
         };
     };
 
@@ -185,10 +177,10 @@
         navnum_layer {
             display-name = "NAVNUM";
             bindings = <
-&kp TAB                  &kp HOME       &kp UP            &kp END       &kp K_REDO      &kp CARET        &kp KP_N7        &kp KP_N8       &kp KP_N9  &kp KP_PLUS
-&kp CAPSLOCK             &kp LEFT       &kp DOWN          &kp RIGHT     &kp K_UNDO      &kp ASTERISK     &kp KP_N4        &kp KP_N5       &kp KP_N6  &kp KP_MINUS
-&kp INS                  &kp PAGE_DOWN  &kp ENTER         &kp PG_UP     &kp ENTER       &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_N2       &kp KP_N3  &kp EQUAL
-&mt LEFT_CONTROL ESCAPE                 &kp LEFT_COMMAND  &kp LEFT_ALT  &sk LEFT_SHIFT  &none            &none            &kp KP_NUMLOCK             &hyper
+&kp TAB                  &kp HOME       &kp UP            &kp END       &kp K_REDO      &kp CARET     &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9  &kp KP_PLUS
+&kp CAPSLOCK             &kp LEFT       &kp DOWN          &kp RIGHT     &kp K_UNDO      &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp KP_MINUS
+&kp INS                  &kp PAGE_DOWN  &kp ENTER         &kp PG_UP     &kp ENTER       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp EQUAL
+&mt LEFT_CONTROL ESCAPE                 &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_SHIFT  &none         &none         &kp KP_NUMLOCK                &hyper
             >;
         };
 
