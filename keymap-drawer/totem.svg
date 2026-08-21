@@ -308,8 +308,8 @@ rect.held {
 <text x="629" y="97" class="combo tap">RET</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="645" y="32" width="26" height="22" class="combo"/>
-<text x="658" y="43" class="combo tap">EQUAL</text>
+<rect rx="6" ry="6" x="693" y="170" width="26" height="22" class="combo"/>
+<text x="706" y="181" class="combo tap">EQUAL</text>
 </g>
 <g class="combo combopos-3">
 <path d="M409,222 l-102,0" class="combo"/>
@@ -375,7 +375,9 @@ rect.held {
 </g>
 <g transform="translate(191, 28)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">HASH</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 88%">AltGr+</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">QUESTION</tspan>
+</text>
 </g>
 <g transform="translate(245, 53)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -387,7 +389,7 @@ rect.held {
 </g>
 <g transform="translate(521, 61)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">CARET</text>
+<text x="0" y="0" class="key tap">HASH</text>
 </g>
 <g transform="translate(575, 53)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -395,7 +397,7 @@ rect.held {
 </g>
 <g transform="translate(627, 28)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">ASTERISK</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">QUESTION</tspan></text>
 </g>
 <g transform="translate(688, 58) rotate(4.0)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -412,7 +414,7 @@ rect.held {
 <g transform="translate(134, 108) rotate(-4.0)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 88%">AltGr+</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">QUESTION</tspan>
+<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">BRACKET</tspan>
 </text>
 </g>
 <g transform="translate(191, 78)" class="key keypos-12">
@@ -429,15 +431,11 @@ rect.held {
 </g>
 <g transform="translate(298, 111)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">BRACKET</tspan>
-</text>
+<text x="0" y="0" class="key tap">SLASH</text>
 </g>
 <g transform="translate(521, 111)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RIGHT</tspan><tspan x="0" dy="1.2em">BRACKET</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSLASH</tspan></text>
 </g>
 <g transform="translate(575, 103)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -453,7 +451,9 @@ rect.held {
 </g>
 <g transform="translate(685, 108) rotate(4.0)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">QUESTION</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">RIGHT</tspan><tspan x="0" dy="1.2em">BRACKET</tspan>
+</text>
 </g>
 <g transform="translate(739, 153) rotate(10.0)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -542,8 +542,8 @@ rect.held {
 <text x="629" y="97" class="combo tap">RET</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="645" y="32" width="26" height="22" class="combo"/>
-<text x="658" y="43" class="combo tap">EQUAL</text>
+<rect rx="6" ry="6" x="693" y="170" width="26" height="22" class="combo"/>
+<text x="706" y="181" class="combo tap">EQUAL</text>
 </g>
 <g class="combo combopos-3">
 <path d="M409,222 l-102,0" class="combo"/>
@@ -621,7 +621,7 @@ rect.held {
 </g>
 <g transform="translate(521, 61)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">DOT</text>
+<text x="0" y="0" class="key tap">CARET</text>
 </g>
 <g transform="translate(575, 53)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -669,7 +669,7 @@ rect.held {
 </g>
 <g transform="translate(521, 111)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">COMMA</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">ASTERISK</tspan></text>
 </g>
 <g transform="translate(575, 103)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -745,9 +745,7 @@ rect.held {
 </g>
 <g transform="translate(730, 203) rotate(10.0)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 88%">KP</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">MULTIPLY</tspan>
-</text>
+<text x="0" y="0" class="key tap">EQUAL</text>
 </g>
 <g transform="translate(32, 190) rotate(-10.0)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -799,8 +797,8 @@ rect.held {
 <text x="629" y="97" class="combo tap">RET</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="645" y="32" width="26" height="22" class="combo"/>
-<text x="658" y="43" class="combo tap">EQUAL</text>
+<rect rx="6" ry="6" x="693" y="170" width="26" height="22" class="combo"/>
+<text x="706" y="181" class="combo tap">EQUAL</text>
 </g>
 <g class="combo combopos-3">
 <path d="M409,222 l-102,0" class="combo"/>
@@ -1027,8 +1025,8 @@ rect.held {
 <text x="629" y="97" class="combo tap">RET</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="645" y="32" width="26" height="22" class="combo"/>
-<text x="658" y="43" class="combo tap">EQUAL</text>
+<rect rx="6" ry="6" x="693" y="170" width="26" height="22" class="combo"/>
+<text x="706" y="181" class="combo tap">EQUAL</text>
 </g>
 <g class="combo combopos-3">
 <path d="M409,222 l-102,0" class="combo"/>
@@ -1253,8 +1251,8 @@ rect.held {
 <text x="629" y="97" class="combo tap">RET</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="645" y="32" width="26" height="22" class="combo"/>
-<text x="658" y="43" class="combo tap">EQUAL</text>
+<rect rx="6" ry="6" x="693" y="170" width="26" height="22" class="combo"/>
+<text x="706" y="181" class="combo tap">EQUAL</text>
 </g>
 <g class="combo combopos-3">
 <path d="M409,222 l-102,0" class="combo"/>

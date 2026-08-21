@@ -42,23 +42,23 @@ layers:
   SYMFN:
   - PIPE
   - AT
-  - HASH
+  - AltGr+QUESTION
   - DOLLAR
   - PERCENT
-  - CARET
+  - HASH
   - AMPERSAND
-  - ASTERISK
+  - QUESTION
   - BACKSPACE
   - DELETE
   - Alt+1
-  - AltGr+QUESTION
+  - LEFT BRACKET
   - LEFT PARENTHESIS
   - LEFT BRACE
-  - LEFT BRACKET
-  - RIGHT BRACKET
+  - SLASH
+  - BACKSLASH
   - RIGHT BRACE
   - RIGHT PARENTHESIS
-  - QUESTION
+  - RIGHT BRACKET
   - EXCLAMATION
   - F2
   - F3
@@ -84,7 +84,7 @@ layers:
   - UP
   - END
   - REDO
-  - DOT
+  - CARET
   - KP 7
   - KP 8
   - KP 9
@@ -94,7 +94,7 @@ layers:
   - DOWN
   - RIGHT
   - UNDO
-  - COMMA
+  - ASTERISK
   - KP 4
   - KP 5
   - KP 6
@@ -108,7 +108,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - KP MULTIPLY
+  - EQUAL
   - {t: ESCAPE, h: LEFT CONTROL}
   - LEFT COMMAND
   - LEFT ALT
@@ -200,7 +200,7 @@ combos:
   k: '&caps_word'
 - p: [17, 18, 16]
   k: RET
-- p: [7, 8]
+- p: [28, 29]
   k: EQUAL
 - p: [32, 35]
   k: {t: RIGHT ALT, h: MEDIA}
