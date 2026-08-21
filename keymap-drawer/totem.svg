@@ -360,6 +360,10 @@ rect.held {
 <rect rx="6" ry="6" x="177" y="86" width="26" height="22" class="combo"/>
 <text x="190" y="97" class="combo tap">ENTER</text>
 </g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="645" y="32" width="26" height="22" class="combo"/>
+<text x="658" y="43" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 339)" class="layer-SYMFN">
@@ -593,6 +597,10 @@ rect.held {
 <path d="M190,97 l-38,8" class="combo"/>
 <rect rx="6" ry="6" x="177" y="86" width="26" height="22" class="combo"/>
 <text x="190" y="97" class="combo tap">ENTER</text>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="645" y="32" width="26" height="22" class="combo"/>
+<text x="658" y="43" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
@@ -849,6 +857,10 @@ rect.held {
 <rect rx="6" ry="6" x="177" y="86" width="26" height="22" class="combo"/>
 <text x="190" y="97" class="combo tap">ENTER</text>
 </g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="645" y="32" width="26" height="22" class="combo"/>
+<text x="658" y="43" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1017)" class="layer-MEDIA">
@@ -1077,6 +1089,10 @@ rect.held {
 <rect rx="6" ry="6" x="177" y="86" width="26" height="22" class="combo"/>
 <text x="190" y="97" class="combo tap">ENTER</text>
 </g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="645" y="32" width="26" height="22" class="combo"/>
+<text x="658" y="43" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1356)" class="layer-MOUSE">
@@ -1302,6 +1318,10 @@ rect.held {
 <path d="M190,97 l-38,8" class="combo"/>
 <rect rx="6" ry="6" x="177" y="86" width="26" height="22" class="combo"/>
 <text x="190" y="97" class="combo tap">ENTER</text>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="645" y="32" width="26" height="22" class="combo"/>
+<text x="658" y="43" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
